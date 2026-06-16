@@ -1,0 +1,13 @@
+name: first
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  job1:
+    name: first job
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4

@@ -79,9 +79,6 @@ jobs:
       - name: Make the linux binary executable
         run: chmod +x random-number-generator-linux
       
-      - name: Install dependencies
-        run: bun install
-      
       - name: Run executable
         run: |
           echo "test-1: test linux with no seed"

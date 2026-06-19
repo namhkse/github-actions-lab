@@ -17,7 +17,7 @@ jobs:
           python-version: '3.13' 
 
       - name: Instlal requirements
-        run: pip install --requirement development-requiremetns.txt
+        run: pip install --requirement development-requirements.txt
       
       - name: Lint code
         run: |

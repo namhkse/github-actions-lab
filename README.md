@@ -1,5 +1,7 @@
 # Learing Github Actions
 
+[![Pipeline](https://github.com/namhkse/github-actions-lab/actions/workflows/pipeline.yml/badge.svg?branch=test%2Factions)](https://github.com/namhkse/github-actions-lab/actions/workflows/pipeline.yml)
+
 ## Working with YAML files
 
 YAML is a program language.
